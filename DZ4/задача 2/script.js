@@ -1,4 +1,4 @@
-var str = 'Long word';
+var str = 'Word';
 
 var rts = '';
 
