@@ -26,7 +26,3 @@ let mailsNew = ['asdsdfasd@gmail.com', 'asdasd@gmail.com', 'test1@gmail.com', 't
 let mailsBlack = ['test3@gmail.com', 'test2@gmail.com', 'test1@gmail.com',]
 
 let check = filterMails(mailsNew, mailsBlack)
-
-// export default {
-//     filter()
-// }
