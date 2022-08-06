@@ -6,8 +6,7 @@ let objects = [
 
 let ourSetting = 'name';
 let ourValue = 'Иван';
-let ourInfo = []
-ourInfo.push(ourSetting, ourValue)
+
 
 let newList = []
 
