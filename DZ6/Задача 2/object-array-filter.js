@@ -1,16 +1,13 @@
 function filter(objects, ourValue, ourSetting) {
 
     for (let obj of objects) {
-
-        let entries = Object.entries(obj)
-        for (let [key, value] of entries) {
+        for (let [key, value] of Object.entries(obj)) {
             if (value === ourValue && key === ourSetting) {
                 console.log(obj)
             }
         }
     }
 }
-
 
 let objects = [
     { name: 'Василий', surname: 'Васильев' },
