@@ -1,9 +1,4 @@
 function filter(objects, ourValue, ourSetting) {
-    let newList = []
-
-
-    let entries = Object.entries(objects)
-    
 
     for (let obj of objects) {
 
@@ -24,7 +19,7 @@ let objects = [
 ]
 
 let ourSetting = `name`;
-let ourValue = 'Иван';
+let ourValue = 'Пётр';
 
 let show = filter(objects, ourValue, ourSetting)
 
