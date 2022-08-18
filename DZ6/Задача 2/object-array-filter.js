@@ -5,7 +5,7 @@ function filter(objects, ourValue, ourSetting) {
 
 
         if (Object.keys(obj).includes(ourSetting)) {
-            let index = Object.keys(obj).indexOf('name')
+            let index = Object.keys(obj).indexOf(ourSetting)
             if ((Object.values(obj))[index].includes(ourValue) ) {
                 newList.push(obj)
                 console.log(newList)
