@@ -24,20 +24,3 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
 })
-
-
-
-
-
-
-// let i = 10;
-
-// let id = setInterval(function() {
-// 	i--;
-	
-// 	if (i == 0) {
-// 		clearInterval(id);
-// 	} else {
-// 		console.log(i);
-// 	}
-// }, 1000);
