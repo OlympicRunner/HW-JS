@@ -3,9 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     let restartCounter = document.querySelector('.start')
     let showCounter = document.querySelector('.show-counter')
 
+    let setInt;
     function downCounter (i) {
         i;
-        let setInt = setInterval(function() {
+        setInt = setInterval(function() {
             i--;
 
             if (i == -1) {
@@ -18,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     restartCounter.addEventListener('click', function () {
-        downCounter.
+        window.clearInterval(setInt)
         downCounter(parseInt(inputCounter.value)+1)
     })
 
