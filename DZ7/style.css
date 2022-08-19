@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px 0;
+    padding: 50px 150px;
+}
+
+.input-counter {
+    margin-bottom: 30px;
+}
+
+.start {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: rgb(108, 108, 204);
+    transition: .3s all ease-in-out;
+}
+
+.start:hover {
+    background-color: rgb(32, 32, 183);
+}
+
+.start:active {
+    color: rgb(154, 152, 152);
+    background-color: rgb(4, 4, 129);
+}
+
+.show-counter {
+    font-size: 50px;
+    font-style: italic;
+}
