@@ -31,8 +31,8 @@ let objects = [
     { name: 'Пётр', surname: 'Петров' }
 ]
 
-let ourSetting = `name`;
-let ourValue = 'Пётр';
+let ourSetting = 'surname';
+let ourValue = 'Иванов';
 
 let show = filter(objects, ourValue, ourSetting)
 
